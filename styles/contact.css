@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Montserrat&display=swap');
+
+* {
+    padding: 0px;
+    margin: auto;
+}
+
+body {
+    /* width: 85vw; */
+    background-color: white;
+}
+
+/* header styles */
+
+header {
+    height: 100px;
+    width: 85vw;
+    padding-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo a, h1{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: Lantinghei SC;
+    text-decoration: none;
+    color: black;
+}
+
+.logo span{
+    font-weight: 700;
+}
+
+
+
+.nav-links {
+    margin: 0px; 
+}
+
+.nav-links ul{
+    margin: 0;
+    height: 20vh;
+    width: 40vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Lantinghei SC;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-links a:hover{
+    border-bottom: black solid 2px;
+}
